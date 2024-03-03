@@ -1,0 +1,106 @@
+ .banner-area{
+    padding: 196px 100px 96px 150px;
+    .contain-text{
+        margin-top: 36px;
+        padding-right: 80px;
+        h1{
+            color: var(--Crayola-Green-1000, #0C4C35);
+            font-family: Nunito;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80px;
+            text-transform: capitalize;
+            margin-bottom: 24px;
+        }
+        p{
+            color: var(--Gray-5, #6B7280);
+            font-family: Nunito;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            text-align: start;
+            margin-bottom: 24px;
+        }
+    }
+    .btn-part{
+        margin-bottom: 58px;
+        .btn-area{
+            margin-right: 24px;
+        }
+    }
+    .banner-services{
+        margin-bottom: 36px;
+        .services-wrapper{
+            margin-right: 44px;
+            display: flex;
+            padding: 14px;
+            align-items: center;
+            gap: 16px;
+            flex: 1 0 0;
+            border-radius: 0px 25px;
+            background: var(--Green-10, #F3FAF7);
+            box-shadow: 0px 2px 4px -2px rgba(18, 108, 75, 0.06), 0px 4px 8px -2px rgba(18, 108, 75, 0.10);
+            .image-part{
+                .icon-Group:before {
+                    content: "\e907";
+                    display: flex;
+                    padding: 26px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 12px;
+                    border-radius: 0px 15px;
+                    background: var(--White, #FFF);
+                    font-size: 32px;
+                }
+                .icon-Group-1:before {
+                    content: "\e902";
+                    display: flex;
+                    padding: 26px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 12px;
+                    border-radius: 0px 15px;
+                    background: var(--White, #FFF);
+                    font-size: 32px;
+                }
+            }
+            .services-contain{
+                h3{
+                    color: var(--Crayola-Green-600, #1DAC78);
+                    font-family: Nunito;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 150%;
+                }
+                p{
+                    color: var(--Gray-5, #6B7280);
+                    font-family: Nunito;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .bacground-green{
+        width: 847px;
+        height: 1035px;
+        position: absolute;
+        right: -198px;
+        top: -66px;
+        border-radius: 0px 158px;
+        background: var(--Crayola-Green-700, #1DAC78);
+        z-index: -1;
+    }
+    .banner-image{
+        width: 620px;
+        height: 620px;
+        img{
+            width: 100%;
+        }
+    }
+}

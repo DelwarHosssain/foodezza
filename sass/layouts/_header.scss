@@ -1,0 +1,28 @@
+.menu-bar{
+  padding: 20px 150px;
+  .menu-wrapper{
+    padding: 20px 0;
+    .menu-logo{
+      img{
+        width: 100%;
+      }
+    }
+    .main-menu{
+      nav{
+        ul{
+          li{
+            display: inline-block;
+            margin-right: 24px;
+            a{
+              font-family: Nunito;
+              font-size: 18px;
+              font-weight: 700;
+              line-height: 27px;
+              color: $heading-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
